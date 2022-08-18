@@ -202,7 +202,7 @@ button{
     margin-top: 80px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-align: center;
 
 }
@@ -214,4 +214,8 @@ button{
 .social-icon i{
     color: cornflowerblue;
     margin: 2px;
+}
+
+.creator{
+    color: cornflowerblue;
 }
