@@ -33,6 +33,11 @@
 
 .menu ul li a{
     color: white;
+    transition: 1s;
+}
+
+.menu ul li a:hover{
+    color: red;
 }
 
 .sub-header .header-info h1{

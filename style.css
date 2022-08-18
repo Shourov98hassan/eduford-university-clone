@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .header {
@@ -16,6 +17,8 @@ body{
     min-height: 100vh;
     width: 100%;
   
+ 
+  
 }
 
 .header img{
@@ -23,6 +26,7 @@ body{
     height: 45px;
     width: 150px;
     margin-top: 30px;
+    
 }
 
 .menu{
@@ -36,6 +40,11 @@ body{
 
 .menu ul li a{
     color: white;
+    transition: 1s;
+}
+
+.menu ul li a:hover{
+    color: red;
 }
 
 .header-info{
