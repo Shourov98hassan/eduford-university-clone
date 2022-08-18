@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sub-header {
+    height: 50vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    position: relative;
+  
+}
+
+.sub-header img{
+    margin-left: 100px;
+    height: 45px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.menu{
+    margin-right: 85px;
+    margin-top: 20px;
+}
+
+.menu ul li{
+    margin-right: 30px;
+}
+
+.menu ul li a{
+    color: white;
+}
+
+.sub-header .header-info h1{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 47%;
+    left: 44%;
+    
+ 
+}
+
+
+
+.contact-us{
+    margin-top: 80px;
+    margin-left: 135px;
+    margin-right: 135px;
+    text-align: justify;
+    margin-bottom: 100px;
+   
+}
+
+.parent-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.home-icon{
+    color: crimson;
+    font-size: 1.4rem;
+    position: absolute;
+    right:540px;
+    bottom: 45px;
+ 
+   
+}
+
+.log-icon{
+    color: crimson;
+    font-size: 1.4rem;
+    position: absolute;
+    right:540px;
+    bottom: 25px;
+ 
+   
+}
+
+.mail-icon{
+    color: crimson;
+    font-size: 1.4rem;
+    position: absolute;
+    right:540px;
+    bottom: 25px;
+ 
+   
+}
+
+
+
+/* .contact-form{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: justify;
+   
+}
+.form{
+    border: 1px solid rgb(226, 221, 221);
+    padding: 10px;
+}
+
+.form-heading{
+    margin-left: 10px;
+} */
+.contact-form input{
+    border: none;
+    border: 1px solid rgb(161, 159, 159);
+    /* background: hsl(0, 0%, 94%); */
+    margin: 10px;
+    color: black;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+} 
+
+ textarea{
+    border: none;
+    /* background: hsl(0, 0%, 94%); */
+    margin: 10px;
+    color: black;
+    height: 160px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(161, 159, 159);
+}  
+
+
+
+.contact-btn{
+    border: none;
+    font-size:14px;
+    margin-top:10px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid crimson;
+    color: cornflowerblue;
+    height: 43px;
+    width: 150px;
+    text-align: center;
+
+}
+
+.contact-btn:hover{
+    background-color: cornflowerblue;
+     transition:1s;
+     border: none;
+     color: white;
+    
+}
+
+
+
+
+.about-us{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.about-us p{
+    font-size: 14px;
+}
+
+.social-icon i{
+    color: cornflowerblue;
+    margin: 2px;
+}
+
+.creator{
+    color: cornflowerblue;
+}

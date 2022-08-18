@@ -102,3 +102,39 @@
     text-align: justify;
 
 }
+
+.contact-form{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: justify;
+   
+}
+.form{
+    border: 1px solid rgb(226, 221, 221);
+    padding: 10px;
+}
+
+.form-heading{
+    margin-left: 10px;
+}
+.contact-form input{
+    border: none;
+    background: hsl(0, 0%, 94%);
+    margin: 10px;
+    color: black;
+    height: 40px;
+    width: 90%;
+    padding: 10px;
+}
+
+textarea{
+    border: none;
+    background: hsl(0, 0%, 94%);
+    margin: 10px;
+    color: black;
+    height: 140px;
+    width: 90%;
+    padding: 10px;
+}
